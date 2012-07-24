@@ -28,8 +28,8 @@
 #import "AppDelegate.h"
 #import "MainViewController.h"
 
-#import <Cordova/CDVPlugin.h>
-#import <Cordova/CDVURLProtocol.h>
+#import <Classes/CDVPlugin.h>
+#import <Classes/CDVURLProtocol.h>
 
 
 @implementation AppDelegate

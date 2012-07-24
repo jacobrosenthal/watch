@@ -25,7 +25,7 @@
 //  Copyright ___ORGANIZATIONNAME___ ___YEAR___. All rights reserved.
 //
 
-#import <Cordova/CDVViewController.h>
+#import <Classes/CDVViewController.h>
 
 @interface MainViewController : CDVViewController
 

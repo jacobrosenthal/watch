@@ -10,11 +10,9 @@
 #import <AudioToolbox/AudioServices.h>
 
 
-#ifdef CORDOVA_FRAMEWORK
-#import <Cordova/CDVSound.h>
-#else
-#import "CDVSound.h"
-#endif
+
+#import <Classes/CDVSound.h>
+
 
 @interface AudioRecord : CDVSound <AVAudioRecorderDelegate> {
 }

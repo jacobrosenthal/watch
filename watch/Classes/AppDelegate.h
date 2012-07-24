@@ -27,7 +27,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <Cordova/CDVViewController.h>
+#import <Classes/CDVViewController.h>
 
 @interface AppDelegate : NSObject < UIApplicationDelegate > {
 
