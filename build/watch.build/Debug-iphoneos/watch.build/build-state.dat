@@ -1,0 +1,801 @@
+Twatch
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/watch.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Info.plist watch/watch-Info.plist
+cPhaseScriptExecution "Touch www folder" /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/Script-304B58A110DAC018002A0835.sh
+cCpResource www build/Debug-iphoneos/watch.app/www
+cCopyPlistFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Cordova.plist watch/Resources/../Cordova.plist
+cCopyPNGFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/icon-72.png watch/Resources/icons/icon-72.png
+cCpResource /Users/jacobrosenthal/Documents/CordovaLib/VERSION build/Debug-iphoneos/watch.app/VERSION
+cCopyPNGFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/icon@2x.png watch/Resources/icons/icon@2x.png
+cCopyPNGFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/icon.png watch/Resources/icons/icon.png
+cCpResource watch/Resources/Capture.bundle build/Debug-iphoneos/watch.app/Capture.bundle
+cCopyStringsFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/en.lproj/Localizable.strings watch/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/es.lproj/Localizable.strings watch/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/jacobrosenthal/Desktop/watch/watch/Classes/MainViewController.xib
+cCopyStringsFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/de.lproj/Localizable.strings watch/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/se.lproj/Localizable.strings watch/Resources/se.lproj/Localizable.strings
+cCopyPNGFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default-Landscape@2x~ipad.png watch/Resources/splash/Default-Landscape@2x~ipad.png
+cCopyPNGFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default-Landscape~ipad.png watch/Resources/splash/Default-Landscape~ipad.png
+cCopyPNGFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default-Portrait@2x~ipad.png watch/Resources/splash/Default-Portrait@2x~ipad.png
+cCopyPNGFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default-Portrait~ipad.png watch/Resources/splash/Default-Portrait~ipad.png
+cCopyPNGFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default@2x~iphone.png watch/Resources/splash/Default@2x~iphone.png
+cCopyPNGFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default~iphone.png watch/Resources/splash/Default~iphone.png
+cProcessPCH /var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/watch-Prefix-bvjxlkvkajtvyffewddaeyzkfixv/watch-Prefix.pch.pth watch/watch-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/main.o /Users/jacobrosenthal/Desktop/watch/watch/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/AppDelegate.o /Users/jacobrosenthal/Desktop/watch/watch/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/MainViewController.o /Users/jacobrosenthal/Desktop/watch/watch/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F453DF20000000000000110
+t1329937906
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+c000000004FECD3F000000000000001A7
+t1340920816
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+c000000004FECD3F000000000000001E5
+t1340920816
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004FECD3F1000000000015B230
+t1340920817
+s1421872
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004FECD3F100000000001141A0
+t1340920817
+s1130912
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000004FECD3F1000000000012E9D0
+t1340920817
+s1239504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004FECD3F200000000005C33D0
+t1340920818
+s6042576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004FECD3F2000000000032E0E0
+t1340920818
+s3334368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004FECD3F200000000003AE430
+t1340920818
+s3859504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004FECD3F2000000000007C770
+t1340920818
+s509808
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000004FECD3F20000000000075200
+t1340920818
+s479744
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004FECD3F3000000000052C940
+t1340920819
+s5425472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004FECD3F30000000000257F70
+t1340920819
+s2457456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004FECD3F3000000000006F910
+t1340920819
+s456976
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004FECD3F30000000000175AA0
+t1340920819
+s1530528
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004FECD3F300000000000C5770
+t1340920819
+s808816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004FECD3F40000000000798EA0
+t1340920820
+s7966368
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+c000000004FFFEE000000000000000132
+t1342172672
+s306
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+c0000000050006F4700000000000001A7
+t1342205767
+s423
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+c0000000050006F4700000000000001E5
+t1342205767
+s485
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000050006F5000000000001D4690
+t1342205776
+s1918608
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c0000000050006F4F00000000000A13C0
+t1342205775
+s660416
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c0000000050006F4F0000000000152570
+t1342205775
+s1385840
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000050006F500000000000395710
+t1342205776
+s3757840
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c0000000050006F5000000000001624C0
+t1342205776
+s1451200
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000050006F54000000000018E440
+t1342205780
+s1631296
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000050006F560000000000088480
+t1342205782
+s558208
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c0000000050006F5600000000000FDFA0
+t1342205782
+s1040288
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050006F5700000000003135F0
+t1342205783
+s3225072
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c0000000050006F5B00000000002A58D0
+t1342205787
+s2775248
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000050006F5B0000000000092200
+t1342205787
+s598528
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000050006F5C00000000001AC260
+t1342205788
+s1753696
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000050006F5D0000000000064E80
+t1342205789
+s413312
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000050006F5F00000000008C0730
+t1342205791
+s9176880
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app
+t1343104459
+s782
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app.dSYM
+t2
+s0
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Capture.bundle
+t1343104459
+s748
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Cordova.plist
+t1343085944
+s844
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default-Landscape@2x~ipad.png
+t1343104498
+s1525093
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default-Landscape~ipad.png
+t1343104471
+s420692
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default-Portrait@2x~ipad.png
+t1343104498
+s1515782
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default-Portrait~ipad.png
+t1343104471
+s418375
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default@2x~iphone.png
+t1343104479
+s339764
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default~iphone.png
+t1343104473
+s94717
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Info.plist
+t1343104459
+s1306
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/MainViewController.nib
+t1343104459
+s792
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/PkgInfo
+t1343104459
+s8
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/ResourceRules.plist
+t1343104459
+s485
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/VERSION
+t1343104459
+s5
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/de.lproj/Localizable.strings
+t1343085945
+s256
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/en.lproj/Localizable.strings
+t1343085945
+s142
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/es.lproj/Localizable.strings
+t1343085945
+s308
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/icon-72.png
+t1343104459
+s6431
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/icon.png
+t1343104459
+s4946
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/icon@2x.png
+t1343104459
+s10302
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/se.lproj/Localizable.strings
+t1343085945
+s259
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/watch
+t2
+s0
+
+N/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/www
+t1343104459
+s374
+
+N/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/AppDelegate.o
+t2
+s0
+
+N/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/MainViewController.o
+t2
+s0
+
+N/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/main.o
+t1343104498
+s4120
+
+N/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/watch.LinkFileList
+c00000000500DDD78000000000000015C
+t1343085944
+s348
+
+N/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/Script-304B58A110DAC018002A0835.sh
+c00000000500DDD780000000000000027
+t1343085944
+s39
+
+N/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch.xcent
+t2
+s0
+
+N/Users/jacobrosenthal/Desktop/watch/watch/Classes/AppDelegate.h
+c00000000500DD60200000000000005B9
+t1343084034
+s1465
+
+N/Users/jacobrosenthal/Desktop/watch/watch/Classes/AppDelegate.m
+c00000000500DD6020000000000001329
+t1343084034
+s4905
+
+N/Users/jacobrosenthal/Desktop/watch/watch/Classes/MainViewController.h
+c00000000500DD602000000000000040C
+t1343084034
+s1036
+
+N/Users/jacobrosenthal/Desktop/watch/watch/Classes/MainViewController.m
+c00000000500DD6020000000000000FFC
+t1343084034
+s4092
+
+N/Users/jacobrosenthal/Desktop/watch/watch/Classes/MainViewController.xib
+c00000000500DD6020000000000001759
+t1343084034
+s5977
+
+N/Users/jacobrosenthal/Desktop/watch/watch/Resources/../Cordova.plist
+c00000000500DD602000000000000094C
+t1343084034
+s2380
+
+N/Users/jacobrosenthal/Desktop/watch/watch/Resources/Capture.bundle
+c00000000500DD60200000000000002EC
+t1343084034
+s748
+
+N/Users/jacobrosenthal/Desktop/watch/watch/Resources/de.lproj/Localizable.strings
+c00000000500DD6020000000000000485
+t1343084034
+s1157
+
+N/Users/jacobrosenthal/Desktop/watch/watch/Resources/en.lproj/Localizable.strings
+c00000000500DD6020000000000000470
+t1343084034
+s1136
+
+N/Users/jacobrosenthal/Desktop/watch/watch/Resources/es.lproj/Localizable.strings
+c00000000500DD602000000000000047D
+t1343084034
+s1149
+
+N/Users/jacobrosenthal/Desktop/watch/watch/Resources/icons/icon-72.png
+c00000000500DD6020000000000001350
+t1343084034
+s4944
+
+N/Users/jacobrosenthal/Desktop/watch/watch/Resources/icons/icon.png
+c00000000500DD6020000000000000F3E
+t1343084034
+s3902
+
+N/Users/jacobrosenthal/Desktop/watch/watch/Resources/icons/icon@2x.png
+c00000000500DD6020000000000001EBD
+t1343084034
+s7869
+
+N/Users/jacobrosenthal/Desktop/watch/watch/Resources/se.lproj/Localizable.strings
+c00000000500DD6020000000000000471
+t1343084034
+s1137
+
+N/Users/jacobrosenthal/Desktop/watch/watch/Resources/splash/Default-Landscape@2x~ipad.png
+c00000000500DD6020000000000176888
+t1343084034
+s1534088
+
+N/Users/jacobrosenthal/Desktop/watch/watch/Resources/splash/Default-Landscape~ipad.png
+c00000000500DD60200000000000674B7
+t1343084034
+s423095
+
+N/Users/jacobrosenthal/Desktop/watch/watch/Resources/splash/Default-Portrait@2x~ipad.png
+c00000000500DD60200000000001892C2
+t1343084034
+s1610434
+
+N/Users/jacobrosenthal/Desktop/watch/watch/Resources/splash/Default-Portrait~ipad.png
+c00000000500DD6020000000000066F23
+t1343084034
+s421667
+
+N/Users/jacobrosenthal/Desktop/watch/watch/Resources/splash/Default@2x~iphone.png
+c00000000500DD6020000000000055981
+t1343084034
+s350593
+
+N/Users/jacobrosenthal/Desktop/watch/watch/Resources/splash/Default~iphone.png
+c00000000500DD6020000000000016EC9
+t1343084034
+s93897
+
+N/Users/jacobrosenthal/Desktop/watch/watch/main.m
+c00000000500DD602000000000000048E
+t1343084034
+s1166
+
+N/Users/jacobrosenthal/Desktop/watch/watch/watch-Prefix.pch
+c00000000500DD60200000000000003BB
+t1343084034
+s955
+
+N/Users/jacobrosenthal/Desktop/watch/www
+c00000000500E268F0000000000000176
+t1343104655
+s374
+
+N/Users/jacobrosenthal/Documents/CordovaLib/VERSION
+c0000000050089EE90000000000000005
+t1342742249
+s5
+
+N/Users/jacobrosenthal/Documents/CordovaLib/build/Debug-iphoneos/libCordova.a
+c00000000500E25CB0000000000373B70
+t1343104459
+s3619696
+
+N/Users/jacobrosenthal/Library/MobileDevice/Provisioning Profiles/46B39001-1ADE-4157-B7F8-DB4E62E5C861.mobileprovision
+c00000000500DDD4B0000000000001C89
+t1343085899
+s7305
+
+N/var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/watch-Prefix-aeqswfoldqdsrdbunwncyzfeordb/watch-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/watch-Prefix-bvjxlkvkajtvyffewddaeyzkfixv/watch-Prefix.pch.pth
+t1343104498
+s3966148
+
+N/var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/watch-Prefix-csksrzamezusyfdwyprpnxkzrmyo/watch-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/watch-Prefix-dkelwrjercmnqwccwjgvsrfzbmls/watch-Prefix.pch.pth
+t1343085977
+s4924176
+
+Nwatch/watch-Info.plist
+c00000000500DD60200000000000009C9
+t1343084034
+s2505
+
+CBuild AST from /Users/jacobrosenthal/Desktop/watch/watch/Classes/AppDelegate.m
+r0
+
+CBuild AST from /Users/jacobrosenthal/Desktop/watch/watch/Classes/MainViewController.m
+r0
+
+CBuild AST from /Users/jacobrosenthal/Desktop/watch/watch/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb6489e525fbeb541^75919e525fbeb541^---0#1#0#--18"Check dependencies36"2D431052-6311-4514-AD3A-7F4634002B9C-
+
+CCodeSign /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app
+r0
+
+CCompileC build/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/AppDelegate.o /Users/jacobrosenthal/Desktop/watch/watch/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s364797778.713995
+e364797778.775741
+r0
+xCompileC
+xbuild/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/AppDelegate.o
+x/Users/jacobrosenthal/Desktop/watch/watch/Classes/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/jacobrosenthal/Desktop/watch/watch/Classes/AppDelegate.m:28:
+o/Users/jacobrosenthal/Desktop/watch/watch/Classes/AppDelegate.h:30:9: fatal error: 'Cordova/CDVViewController.h' file not found
+o#import <Cordova/CDVViewController.h>
+o        ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/jacobrosenthal/Desktop/watch/watch/Classes/AppDelegate.m520db7525fbeb541^1c9ac6525fbeb541^-285"In file included from /Users/jacobrosenthal/Desktop/watch/watch/Classes/AppDelegate.m:28:/Users/jacobrosenthal/Desktop/watch/watch/Classes/AppDelegate.h:30:9: fatal error: 'Cordova/CDVViewController.h' file not found#import <Cordova/CDVViewController.h>        ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@44"'Cordova/CDVViewController.h' file not found-364797778#18446744073709551615#0#1(2@89"In file included from /Users/jacobrosenthal/Desktop/watch/watch/Classes/AppDelegate.m:28:-364797778#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@79"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/Classes/AppDelegate.m0000000000000000^27#8#27#8#942#0#30"Apple LLVM compiler 3.1 Notice--2#27"com.apple.dt.IDE.diagnostic3@79"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/Classes/AppDelegate.h0000000000000000^29#8#29#8#967#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@79"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/Classes/AppDelegate.m0000000000000000^3168"CompileC build/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/AppDelegate.o watch/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jacobrosenthal/Desktop/watch    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch-generated-files.hmap -I/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch-own-target-headers.hmap -I/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch-all-target-headers.hmap -iquote /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch-project-headers.hmap -I/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/include -I/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/usr/local/lib/include -I/Users/jacobrosenthal/Desktop/watch/build/UninstalledProducts/include -I/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos -I/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/DerivedSources/armv7 -I/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/DerivedSources -F/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos -include /var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/watch-Prefix-bvjxlkvkajtvyffewddaeyzkfixv/watch-Prefix.pch -MMD -MT dependencies -MF /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/AppDelegate.dia -c /Users/jacobrosenthal/Desktop/watch/watch/Classes/AppDelegate.m -o /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/AppDelegate.o36"7DF6A7B8-D483-4C4C-83F4-550E465A0F2D-
+
+CCompileC build/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/MainViewController.o /Users/jacobrosenthal/Desktop/watch/watch/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s364797778.714004
+e364797778.775668
+r0
+xCompileC
+xbuild/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/MainViewController.o
+x/Users/jacobrosenthal/Desktop/watch/watch/Classes/MainViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/jacobrosenthal/Desktop/watch/watch/Classes/MainViewController.m:28:
+o/Users/jacobrosenthal/Desktop/watch/watch/Classes/MainViewController.h:28:9: fatal error: 'Cordova/CDVViewController.h' file not found
+o#import <Cordova/CDVViewController.h>
+o        ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/jacobrosenthal/Desktop/watch/watch/Classes/MainViewController.m4d12b7525fbeb541^6d8fc6525fbeb541^-299"In file included from /Users/jacobrosenthal/Desktop/watch/watch/Classes/MainViewController.m:28:/Users/jacobrosenthal/Desktop/watch/watch/Classes/MainViewController.h:28:9: fatal error: 'Cordova/CDVViewController.h' file not found#import <Cordova/CDVViewController.h>        ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@44"'Cordova/CDVViewController.h' file not found-364797778#18446744073709551615#0#1(2@96"In file included from /Users/jacobrosenthal/Desktop/watch/watch/Classes/MainViewController.m:28:-364797778#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@86"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/Classes/MainViewController.m0000000000000000^27#8#27#8#949#0#30"Apple LLVM compiler 3.1 Notice--2#27"com.apple.dt.IDE.diagnostic3@86"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/Classes/MainViewController.h0000000000000000^27#8#27#8#949#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@86"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/Classes/MainViewController.m0000000000000000^3210"CompileC build/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/MainViewController.o watch/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jacobrosenthal/Desktop/watch    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch-generated-files.hmap -I/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch-own-target-headers.hmap -I/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch-all-target-headers.hmap -iquote /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch-project-headers.hmap -I/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/include -I/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/usr/local/lib/include -I/Users/jacobrosenthal/Desktop/watch/build/UninstalledProducts/include -I/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos -I/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/DerivedSources/armv7 -I/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/DerivedSources -F/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos -include /var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/watch-Prefix-bvjxlkvkajtvyffewddaeyzkfixv/watch-Prefix.pch -MMD -MT dependencies -MF /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/MainViewController.d --serialize-diagnostics /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/MainViewController.dia -c /Users/jacobrosenthal/Desktop/watch/watch/Classes/MainViewController.m -o /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/MainViewController.o36"76183EBA-EE81-4BF5-AF15-71DFFD3D8FDB-
+
+CCompileC build/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/main.o /Users/jacobrosenthal/Desktop/watch/watch/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s364797298.696414
+e364797298.733174
+r1
+xCompileC
+xbuild/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/main.o
+x/Users/jacobrosenthal/Desktop/watch/watch/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Users/jacobrosenthal/Desktop/watch/watch/main.m3067b2725dbeb541^6cb1bb725dbeb541^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/main.m0000000000000000^3110"CompileC build/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/main.o watch/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jacobrosenthal/Desktop/watch    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch-generated-files.hmap -I/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch-own-target-headers.hmap -I/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch-all-target-headers.hmap -iquote /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch-project-headers.hmap -I/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/include -I/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/usr/local/lib/include -I/Users/jacobrosenthal/Desktop/watch/build/UninstalledProducts/include -I/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos -I/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/DerivedSources/armv7 -I/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/DerivedSources -F/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos -include /var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/watch-Prefix-bvjxlkvkajtvyffewddaeyzkfixv/watch-Prefix.pch -MMD -MT dependencies -MF /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/main.dia -c /Users/jacobrosenthal/Desktop/watch/watch/main.m -o /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/main.o36"1BDA6F39-0223-4ECC-8180-E819528C15E4-
+
+CCompileXIB /Users/jacobrosenthal/Desktop/watch/watch/Classes/MainViewController.xib
+s364797259.594526
+e364797259.645852
+r1
+xCompileXIB
+x/Users/jacobrosenthal/Desktop/watch/watch/Classes/MainViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compiling /Users/jacobrosenthal/Desktop/watch/watch/Classes/MainViewController.xibe34f984b5dbeb541^8d62a54b5dbeb541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/Classes/MainViewController.xib0000000000000000^827"CompileXIB watch/Classes/MainViewController.xib    cd /Users/jacobrosenthal/Desktop/watch    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/MainViewController.nib /Users/jacobrosenthal/Desktop/watch/watch/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"F42CF371-F32E-4B6B-A0FD-C33BBAA7CE8A-
+
+CCopyPNGFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default-Landscape@2x~ipad.png watch/Resources/splash/Default-Landscape@2x~ipad.png
+s364797259.600010
+e364797298.273671
+r1
+xCopyPNGFile
+x/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default-Landscape@2x~ipad.png
+xwatch/Resources/splash/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"CopyPNGFile build/Debug-iphoneos/watch.app/Default-Landscape@2x~ipad.png watch/Resources/splash/Default-Landscape@2x~ipad.pngb3b2994b5dbeb541^871946725dbeb541^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/Resources/splash/Default-Landscape@2x~ipad.png0000000000000000^746"CopyPNGFile "build/Debug-iphoneos/watch.app/Default-Landscape@2x~ipad.png" "watch/Resources/splash/Default-Landscape@2x~ipad.png"    cd /Users/jacobrosenthal/Desktop/watch    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/jacobrosenthal/Desktop/watch/watch/Resources/splash/Default-Landscape@2x~ipad.png" "/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default-Landscape@2x~ipad.png"36"F777EFC4-915C-4C61-8D5D-2044841BE107-
+
+CCopyPNGFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default-Landscape~ipad.png watch/Resources/splash/Default-Landscape~ipad.png
+s364797259.600015
+e364797271.096730
+r1
+xCopyPNGFile
+x/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default-Landscape~ipad.png
+xwatch/Resources/splash/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"CopyPNGFile build/Debug-iphoneos/watch.app/Default-Landscape~ipad.png watch/Resources/splash/Default-Landscape~ipad.pngfbb1994b5dbeb541^4cc318575dbeb541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/Resources/splash/Default-Landscape~ipad.png0000000000000000^734"CopyPNGFile "build/Debug-iphoneos/watch.app/Default-Landscape~ipad.png" "watch/Resources/splash/Default-Landscape~ipad.png"    cd /Users/jacobrosenthal/Desktop/watch    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/jacobrosenthal/Desktop/watch/watch/Resources/splash/Default-Landscape~ipad.png" "/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default-Landscape~ipad.png"36"9B4DAD8C-AA8E-460A-BFBE-B7BBB9703DF8-
+
+CCopyPNGFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default-Portrait@2x~ipad.png watch/Resources/splash/Default-Portrait@2x~ipad.png
+s364797259.611500
+e364797298.472358
+r1
+xCopyPNGFile
+x/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default-Portrait@2x~ipad.png
+xwatch/Resources/splash/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"CopyPNGFile build/Debug-iphoneos/watch.app/Default-Portrait@2x~ipad.png watch/Resources/splash/Default-Portrait@2x~ipad.png51a39c4b5dbeb541^18ee78725dbeb541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/Resources/splash/Default-Portrait@2x~ipad.png0000000000000000^742"CopyPNGFile "build/Debug-iphoneos/watch.app/Default-Portrait@2x~ipad.png" "watch/Resources/splash/Default-Portrait@2x~ipad.png"    cd /Users/jacobrosenthal/Desktop/watch    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/jacobrosenthal/Desktop/watch/watch/Resources/splash/Default-Portrait@2x~ipad.png" "/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default-Portrait@2x~ipad.png"36"9FA39E49-A544-4A70-B468-9D48BE8FC415-
+
+CCopyPNGFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default-Portrait~ipad.png watch/Resources/splash/Default-Portrait~ipad.png
+s364797259.647100
+e364797271.254500
+r1
+xCopyPNGFile
+x/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default-Portrait~ipad.png
+xwatch/Resources/splash/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"CopyPNGFile build/Debug-iphoneos/watch.app/Default-Portrait~ipad.png watch/Resources/splash/Default-Portrait~ipad.png6abfa54b5dbeb541^163441575dbeb541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/Resources/splash/Default-Portrait~ipad.png0000000000000000^730"CopyPNGFile "build/Debug-iphoneos/watch.app/Default-Portrait~ipad.png" "watch/Resources/splash/Default-Portrait~ipad.png"    cd /Users/jacobrosenthal/Desktop/watch    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/jacobrosenthal/Desktop/watch/watch/Resources/splash/Default-Portrait~ipad.png" "/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default-Portrait~ipad.png"36"65885BA0-827B-4E8C-A174-C93CC5721BC3-
+
+CCopyPNGFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default@2x~iphone.png watch/Resources/splash/Default@2x~iphone.png
+s364797271.098034
+e364797279.079007
+r1
+xCopyPNGFile
+x/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default@2x~iphone.png
+xwatch/Resources/splash/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"CopyPNGFile build/Debug-iphoneos/watch.app/Default@2x~iphone.png watch/Resources/splash/Default@2x~iphone.pngc72e19575dbeb541^ef39145f5dbeb541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/Resources/splash/Default@2x~iphone.png0000000000000000^714"CopyPNGFile "build/Debug-iphoneos/watch.app/Default@2x~iphone.png" "watch/Resources/splash/Default@2x~iphone.png"    cd /Users/jacobrosenthal/Desktop/watch    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/jacobrosenthal/Desktop/watch/watch/Resources/splash/Default@2x~iphone.png" "/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default@2x~iphone.png"36"1E7698A2-30D6-426D-AE56-B73A7CB18A52-
+
+CCopyPNGFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default~iphone.png watch/Resources/splash/Default~iphone.png
+s364797271.255738
+e364797273.307669
+r1
+xCopyPNGFile
+x/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default~iphone.png
+xwatch/Resources/splash/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"CopyPNGFile build/Debug-iphoneos/watch.app/Default~iphone.png watch/Resources/splash/Default~iphone.pngb98e41575dbeb541^a8c34e595dbeb541^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/Resources/splash/Default~iphone.png0000000000000000^702"CopyPNGFile "build/Debug-iphoneos/watch.app/Default~iphone.png" "watch/Resources/splash/Default~iphone.png"    cd /Users/jacobrosenthal/Desktop/watch    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/jacobrosenthal/Desktop/watch/watch/Resources/splash/Default~iphone.png" "/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Default~iphone.png"36"B0680A6B-CB2F-4555-9DC6-48CFDCEDEBDC-
+
+CCopyPNGFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/icon-72.png watch/Resources/icons/icon-72.png
+s364797259.523289
+e364797259.598708
+r1
+xCopyPNGFile
+x/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/icon-72.png
+xwatch/Resources/icons/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CopyPNGFile build/Debug-iphoneos/watch.app/icon-72.png watch/Resources/icons/icon-72.png6b2b864b5dbeb541^7445994b5dbeb541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/Resources/icons/icon-72.png0000000000000000^664"CopyPNGFile build/Debug-iphoneos/watch.app/icon-72.png watch/Resources/icons/icon-72.png    cd /Users/jacobrosenthal/Desktop/watch    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jacobrosenthal/Desktop/watch/watch/Resources/icons/icon-72.png /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/icon-72.png36"02C9EEF7-1884-4CC4-A42A-84DD0E7D7DFF-
+
+CCopyPNGFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/icon.png watch/Resources/icons/icon.png
+s364797259.524954
+e364797259.590524
+r1
+xCopyPNGFile
+x/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/icon.png
+xwatch/Resources/icons/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"CopyPNGFile build/Debug-iphoneos/watch.app/icon.png watch/Resources/icons/icon.pnga67e864b5dbeb541^732c974b5dbeb541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/Resources/icons/icon.png0000000000000000^652"CopyPNGFile build/Debug-iphoneos/watch.app/icon.png watch/Resources/icons/icon.png    cd /Users/jacobrosenthal/Desktop/watch    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jacobrosenthal/Desktop/watch/watch/Resources/icons/icon.png /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/icon.png36"5E6E7674-5F2C-4007-9D50-B8FC79C8D9A6-
+
+CCopyPNGFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/icon@2x.png watch/Resources/icons/icon@2x.png
+s364797259.527627
+e364797259.610196
+r1
+xCopyPNGFile
+x/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/icon@2x.png
+xwatch/Resources/icons/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CopyPNGFile build/Debug-iphoneos/watch.app/icon@2x.png watch/Resources/icons/icon@2x.pngb62c874b5dbeb541^ea429c4b5dbeb541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/Resources/icons/icon@2x.png0000000000000000^672"CopyPNGFile "build/Debug-iphoneos/watch.app/icon@2x.png" "watch/Resources/icons/icon@2x.png"    cd /Users/jacobrosenthal/Desktop/watch    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/jacobrosenthal/Desktop/watch/watch/Resources/icons/icon@2x.png" "/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/icon@2x.png"36"3A5853E8-CEE5-456D-AF09-890CB96B628B-
+
+CCopyPlistFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Cordova.plist watch/Resources/../Cordova.plist
+s364778744.964902
+e364778744.970778
+r1
+xCopyPlistFile
+x/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Cordova.plist
+xwatch/Resources/../Cordova.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy watch/Resources/../Cordova.plist3318f7f814beb541^cc96f8f814beb541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/Resources/../Cordova.plist0000000000000000^487"CopyPlistFile build/Debug-iphoneos/watch.app/Cordova.plist watch/Resources/../Cordova.plist    cd /Users/jacobrosenthal/Desktop/watch    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app -- watch/Resources/../Cordova.plist36"AA9B4B9A-EEF4-4DF5-9ED6-BE509A2021ED-
+
+CCopyStringsFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/de.lproj/Localizable.strings watch/Resources/de.lproj/Localizable.strings
+s364778745.056640
+e364778745.060368
+r1
+xCopyStringsFile
+x/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/de.lproj/Localizable.strings
+xwatch/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy watch/Resources/de.lproj/Localizable.stringsbe9f0ef914beb541^1f810ff914beb541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/Resources/de.lproj/Localizable.strings0000000000000000^578"CopyStringsFile build/Debug-iphoneos/watch.app/de.lproj/Localizable.strings watch/Resources/de.lproj/Localizable.strings    cd /Users/jacobrosenthal/Desktop/watch    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/de.lproj -- watch/Resources/de.lproj/Localizable.strings36"68F3C89F-2BB2-482A-A826-60A6D671B341-
+
+CCopyStringsFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/en.lproj/Localizable.strings watch/Resources/en.lproj/Localizable.strings
+s364778745.023293
+e364778745.042207
+r1
+xCopyStringsFile
+x/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/en.lproj/Localizable.strings
+xwatch/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy watch/Resources/en.lproj/Localizable.stringsc97309f914beb541^fdda0af914beb541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/Resources/en.lproj/Localizable.strings0000000000000000^578"CopyStringsFile build/Debug-iphoneos/watch.app/en.lproj/Localizable.strings watch/Resources/en.lproj/Localizable.strings    cd /Users/jacobrosenthal/Desktop/watch    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/en.lproj -- watch/Resources/en.lproj/Localizable.strings36"1051F47A-49F1-4715-AAB6-370D353A71F6-
+
+CCopyStringsFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/es.lproj/Localizable.strings watch/Resources/es.lproj/Localizable.strings
+s364778745.043861
+e364778745.047115
+r1
+xCopyStringsFile
+x/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/es.lproj/Localizable.strings
+xwatch/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy watch/Resources/es.lproj/Localizable.strings295c0bf914beb541^501c0cf914beb541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/Resources/es.lproj/Localizable.strings0000000000000000^578"CopyStringsFile build/Debug-iphoneos/watch.app/es.lproj/Localizable.strings watch/Resources/es.lproj/Localizable.strings    cd /Users/jacobrosenthal/Desktop/watch    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/es.lproj -- watch/Resources/es.lproj/Localizable.strings36"20815B93-7169-48AE-B9E2-F9DBB454786C-
+
+CCopyStringsFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/se.lproj/Localizable.strings watch/Resources/se.lproj/Localizable.strings
+s364778745.056842
+e364778745.061324
+r1
+xCopyStringsFile
+x/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/se.lproj/Localizable.strings
+xwatch/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy watch/Resources/se.lproj/Localizable.stringsa4a50ef914beb541^81b40ff914beb541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/Resources/se.lproj/Localizable.strings0000000000000000^578"CopyStringsFile build/Debug-iphoneos/watch.app/se.lproj/Localizable.strings watch/Resources/se.lproj/Localizable.strings    cd /Users/jacobrosenthal/Desktop/watch    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/se.lproj -- watch/Resources/se.lproj/Localizable.strings36"B319839C-3C10-4F1B-B123-B4422763C0AF-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/watch.app/ResourceRules.plist
+s364797259.486136
+e364797259.490416
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/watch.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphoneos/watch.app/ResourceRules.plistec877c4b5dbeb541^198c7d4b5dbeb541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/ResourceRules.plist0000000000000000^821"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/watch.app/ResourceRules.plist    cd /Users/jacobrosenthal/Desktop/watch    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app36"626823EA-B369-4143-A798-DE52D5D03464-
+
+CCpResource /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/watch.app/ResourceRules.plist
+s364778744.924104
+e364778744.927043
+r1
+xCpResource
+x/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/watch.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphoneos/watch.app/ResourceRules.plist50abecf814beb541^bd53edf814beb541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/ResourceRules.plist000000000080d041^740"CpResource /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/watch.app/ResourceRules.plist    cd /Users/jacobrosenthal/Desktop/watch    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app36"6713DAF7-49E2-4986-B1F9-A1A5D5A78199-
+
+CCpResource /Users/jacobrosenthal/Documents/CordovaLib/VERSION build/Debug-iphoneos/watch.app/VERSION
+s364797259.522533
+e364797259.526436
+r1
+xCpResource
+x/Users/jacobrosenthal/Documents/CordovaLib/VERSION
+xbuild/Debug-iphoneos/watch.app/VERSION
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/Debug-iphoneos/watch.app/VERSION1006864b5dbeb541^b9c3864b5dbeb541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/VERSION0000000000000000^667"CpResource /Users/jacobrosenthal/Documents/CordovaLib/VERSION build/Debug-iphoneos/watch.app/VERSION    cd /Users/jacobrosenthal/Desktop/watch    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jacobrosenthal/Documents/CordovaLib/VERSION /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app36"66955035-6F31-4A51-9C95-1D47526FC0AB-
+
+CCpResource watch/Resources/Capture.bundle build/Debug-iphoneos/watch.app/Capture.bundle
+s364797259.559110
+e364797259.596105
+r1
+xCpResource
+xwatch/Resources/Capture.bundle
+xbuild/Debug-iphoneos/watch.app/Capture.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphoneos/watch.app/Capture.bundle33378f4b5dbeb541^efc8984b5dbeb541^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Capture.bundle/0000000000000000^670"CpResource watch/Resources/Capture.bundle build/Debug-iphoneos/watch.app/Capture.bundle    cd /Users/jacobrosenthal/Desktop/watch    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jacobrosenthal/Desktop/watch/watch/Resources/Capture.bundle /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app36"CDF76938-CFBC-48C6-93C4-54CBB38FB09B-
+
+CCpResource www build/Debug-iphoneos/watch.app/www
+s364797778.664327
+e364797778.697002
+r1
+xCpResource
+xwww
+xbuild/Debug-iphoneos/watch.app/www
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/Debug-iphoneos/watch.app/www1f2daa525fbeb541^b56fb2525fbeb541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/www/0000000000000000^605"CpResource www build/Debug-iphoneos/watch.app/www    cd /Users/jacobrosenthal/Desktop/watch    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jacobrosenthal/Desktop/watch/www /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app36"8E37D8FA-430C-4832-8EEC-5AEE97E9C61F-
+
+CGenerateDSYMFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app.dSYM /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/watch
+r0
+
+CLd /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/watch normal armv7
+r0
+
+CPhaseScriptExecution "Touch www folder" /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/Script-304B58A110DAC018002A0835.sh
+s364797778.634901
+e364797778.650774
+r1
+xPhaseScriptExecution
+xTouch www folder
+x/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/Script-304B58A110DAC018002A0835.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Run custom shell script 'Touch www folder'3047a3525fbeb541^c8b4a6525fbeb541^---0#0#0#--19115"PhaseScriptExecution "Touch www folder" build/watch.build/Debug-iphoneos/watch.build/Script-304B58A110DAC018002A0835.sh    cd /Users/jacobrosenthal/Desktop/watch    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER jacobrosenthal    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv7    setenv ARCHS_STANDARD_32_64_BIT armv7    setenv ARCHS_STANDARD_32_BIT armv7    setenv ARCHS_UNIVERSAL_IPHONE_OS armv7    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/jacobrosenthal/Desktop/watch/build    setenv BUILD_ROOT /Users/jacobrosenthal/Desktop/watch/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos    setenv CACHE_ROOT /var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502    setenv CCHROOT /var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos    setenv CONFIGURATION_TEMP_DIR /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH watch.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CORDOVALIB /Users/jacobrosenthal/Documents/CordovaLib    setenv CP /bin/cp    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH watch.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/watch.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME watch.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH watch.app/Executables    setenv EXECUTABLE_FOLDER_PATH watch.app    setenv EXECUTABLE_NAME watch    setenv EXECUTABLE_PATH watch.app/watch    setenv FILE_LIST /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH watch.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME watch.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER watch/watch-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/include\" \"/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/usr/local/lib/include\" \"/Users/jacobrosenthal/Desktop/watch/build/UninstalledProducts/include\" \"/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE watch/watch-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH watch.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH watch.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/watch.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER jacobrosenthal    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/watch.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH watch.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch-LinkMap-normal-armv7.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv7 /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/Objects-normal/armv7/watch.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH watch.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11E2705    setenv MAC_OS_X_VERSION_ACTUAL 1074    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0704    setenv NATIVE_ARCH armv7    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/Objects-normal    setenv OBJROOT /Users/jacobrosenthal/Desktop/watch/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH watch.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/PkgInfo    setenv PKGINFO_PATH watch.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PREFERRED_ARCH armv7    setenv PLATFORM_PRODUCT_BUILD_VERSION 9B176    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH watch.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH watch.app/PrivateHeaders    setenv PRODUCT_NAME watch    setenv PRODUCT_SETTINGS_PATH /Users/jacobrosenthal/Desktop/watch/watch/watch-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT watch    setenv PROJECT_DERIVED_FILE_DIR /Users/jacobrosenthal/Desktop/watch/build/watch.build/DerivedSources    setenv PROJECT_DIR /Users/jacobrosenthal/Desktop/watch    setenv PROJECT_FILE_PATH /Users/jacobrosenthal/Desktop/watch/watch.xcodeproj    setenv PROJECT_NAME watch    setenv PROJECT_TEMP_DIR /Users/jacobrosenthal/Desktop/watch/build/watch.build    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH watch.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH watch.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk    setenv SDK_NAME iphoneos5.1    setenv SDK_PRODUCT_BUILD_VERSION 9B176    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH watch.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH watch.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/jacobrosenthal/Desktop/watch    setenv SRCROOT /Users/jacobrosenthal/Desktop/watch    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1,2    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/jacobrosenthal/Desktop/watch/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME watch    setenv TARGET_BUILD_DIR /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos    setenv TARGET_NAME watch    setenv TARGET_TEMP_DIR /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build    setenv TEMP_DIR /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build    setenv TEMP_FILES_DIR /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build    setenv TEMP_FILE_DIR /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build    setenv TEMP_ROOT /Users/jacobrosenthal/Desktop/watch/build    setenv TEST_AFTER_BUILD NO    setenv UID 502    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH watch.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER jacobrosenthal    setenv USER_APPS_DIR /Users/jacobrosenthal/Applications    setenv USER_LIBRARY_DIR /Users/jacobrosenthal/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "armv6 armv7"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH watch.app/version.plist    setenv VERSION_INFO_BUILDER jacobrosenthal    setenv VERSION_INFO_FILE watch_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:watch  PROJECT:watch-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME watch.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4E3002    setenv XCODE_VERSION_ACTUAL 0433    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0430    setenv YACC yacc    /bin/sh -c /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/Script-304B58A110DAC018002A0835.sh36"1F76ED2E-F469-4060-BAE9-738C3779C897-
+
+CProcessInfoPlistFile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Info.plist watch/watch-Info.plist
+s364797259.486123
+e364797259.490027
+r1
+xProcessInfoPlistFile
+x/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Info.plist
+xwatch/watch-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Process watch/watch-Info.plist7f897c4b5dbeb541^54737d4b5dbeb541^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/watch-Info.plist0000000000000000^698"ProcessInfoPlistFile build/Debug-iphoneos/watch.app/Info.plist watch/watch-Info.plist    cd /Users/jacobrosenthal/Desktop/watch    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility watch/watch-Info.plist -genpkginfo /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/ResourceRules.plist -o /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/Info.plist36"18369524-8DF9-4118-99B5-A5D135B1AA5C-
+
+CProcessPCH /Users/jacobrosenthal/Library/Developer/Xcode/DerivedData/watch-gyovdedhcexcjpenyayvujygscxt/Index/PrecompiledHeaders/watch-Prefix-avmgvjyxoqzkagcywxkbvqrimnve_ast/watch-Prefix.pch.pth watch/watch-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/jacobrosenthal/Library/Developer/Xcode/DerivedData/watch-gyovdedhcexcjpenyayvujygscxt/Index/PrecompiledHeaders/watch-Prefix-dprqstajlhcfrcffeqxctzefnbti_ast/watch-Prefix.pch.pth watch/watch-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/jacobrosenthal/Library/Developer/Xcode/DerivedData/watch-gyovdedhcexcjpenyayvujygscxt/Index/PrecompiledHeaders/watch-Prefix-dufckdhbblqzicgizbstxqulgwou_ast/watch-Prefix.pch.pth watch/watch-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/jacobrosenthal/Library/Developer/Xcode/DerivedData/watch-gyovdedhcexcjpenyayvujygscxt/Index/PrecompiledHeaders/watch-Prefix-fteafzksvcjpjweofjvqkrvfqosp_ast/watch-Prefix.pch.pth watch/watch-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/watch-Prefix-aeqswfoldqdsrdbunwncyzfeordb/watch-Prefix.pch.pth watch/watch-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/watch-Prefix-bvjxlkvkajtvyffewddaeyzkfixv/watch-Prefix.pch.pth watch/watch-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s364797298.481434
+e364797298.689364
+r1
+xProcessPCH
+x/var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/watch-Prefix-bvjxlkvkajtvyffewddaeyzkfixv/watch-Prefix.pch.pth
+xwatch/watch-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile watch/watch-Prefix.pcha35b7b725dbeb541^297ab0725dbeb541^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/watch-Prefix.pch0000000000000000^3201"ProcessPCH /var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/watch-Prefix-bvjxlkvkajtvyffewddaeyzkfixv/watch-Prefix.pch.pth watch/watch-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jacobrosenthal/Desktop/watch    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch-generated-files.hmap -I/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch-own-target-headers.hmap -I/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch-all-target-headers.hmap -iquote /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch-project-headers.hmap -I/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/include -I/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/usr/local/lib/include -I/Users/jacobrosenthal/Desktop/watch/build/UninstalledProducts/include -I/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos -I/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/DerivedSources/armv7 -I/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/DerivedSources -F/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos --serialize-diagnostics /var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/watch-Prefix-bvjxlkvkajtvyffewddaeyzkfixv/watch-Prefix.pch.dia -c /Users/jacobrosenthal/Desktop/watch/watch/watch-Prefix.pch -o /var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/watch-Prefix-bvjxlkvkajtvyffewddaeyzkfixv/watch-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/watch-Prefix-bvjxlkvkajtvyffewddaeyzkfixv/watch-Prefix.pch.d36"246B9B0E-2FA2-4538-BCC5-0069B516AA9B-
+
+CProcessPCH /var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/watch-Prefix-csksrzamezusyfdwyprpnxkzrmyo/watch-Prefix.pch.pth watch/watch-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/watch-Prefix-dkelwrjercmnqwccwjgvsrfzbmls/watch-Prefix.pch.pth watch/watch-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s364778777.756610
+e364778777.997087
+r1
+xProcessPCH
+x/var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/watch-Prefix-dkelwrjercmnqwccwjgvsrfzbmls/watch-Prefix.pch.pth
+xwatch/watch-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile watch/watch-Prefix.pch9ecec11915beb541^1442ff1915beb541^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/jacobrosenthal/Desktop/watch/watch/watch-Prefix.pch0000000000000000^3221"ProcessPCH /var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/watch-Prefix-dkelwrjercmnqwccwjgvsrfzbmls/watch-Prefix.pch.pth watch/watch-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jacobrosenthal/Desktop/watch    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch-generated-files.hmap -I/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch-own-target-headers.hmap -I/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch-all-target-headers.hmap -iquote /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch-project-headers.hmap -I/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/include -I/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/usr/local/lib/include -I/Users/jacobrosenthal/Desktop/watch/build/UninstalledProducts/include -I/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos -I/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/DerivedSources/armv7 -I/Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/DerivedSources -F/Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos --serialize-diagnostics /var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/watch-Prefix-dkelwrjercmnqwccwjgvsrfzbmls/watch-Prefix.pch.dia -c /Users/jacobrosenthal/Desktop/watch/watch/watch-Prefix.pch -o /var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/watch-Prefix-dkelwrjercmnqwccwjgvsrfzbmls/watch-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/zp/bpw8zd0141j5zf7l8m_qtt8w0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/watch-Prefix-dkelwrjercmnqwccwjgvsrfzbmls/watch-Prefix.pch.d36"EBAA70CC-A3B7-466E-8651-CC4E414F7D4D-
+
+CProcessProductPackaging "/Users/jacobrosenthal/Library/MobileDevice/Provisioning Profiles/46B39001-1ADE-4157-B7F8-DB4E62E5C861.mobileprovision" /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch.xcent
+r0
+
+CProcessProductPackaging /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/jacobrosenthal/Desktop/watch/build/watch.build/Debug-iphoneos/watch.build/watch.xcent
+r0
+
+CTouch /Users/jacobrosenthal/Desktop/watch/build/Debug-iphoneos/watch.app
+r0
+

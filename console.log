@@ -1,0 +1,17 @@
+2012-07-23 16:04:27.501 watch[3477:13403] Multi-tasking -> Device: YES, App: YES
+2012-07-23 16:04:27.584 watch[3477:13403] PluginResult:toJSONString - {"status":1,"message":"wifi","keepCallback":false}
+2012-07-23 16:04:27.585 watch[3477:13403] PluginResult toSuccessCallbackString: cordova.callbackSuccess('NetworkStatus0',{"status":1,"message":"wifi","keepCallback":false});
+2012-07-23 16:04:27.586 watch[3477:13403] PluginResult:toJSONString - {"status":1,"message":{"name":"iPhone Simulator","uuid":"0C179D37-72FC-46EA-8751-A96E5903FAE2","platform":"iPhone Simulator","version":"5.1","cordova":"2.0.0"},"keepCallback":false}
+2012-07-23 16:04:27.587 watch[3477:13403] PluginResult toSuccessCallbackString: cordova.callbackSuccess('Device1',{"status":1,"message":{"name":"iPhone Simulator","uuid":"0C179D37-72FC-46EA-8751-A96E5903FAE2","platform":"iPhone Simulator","version":"5.1","cordova":"2.0.0"},"keepCallback":false});
+2012-07-23 16:04:27.596 watch[3477:13403] [INFO] report:deviceready
+Terminating in response to SpringBoard's termination.
+2012-07-23 16:04:59.160 watch[3623:13403] Multi-tasking -> Device: YES, App: YES
+2012-07-23 16:04:59.242 watch[3623:13403] PluginResult:toJSONString - {"status":1,"message":"wifi","keepCallback":false}
+2012-07-23 16:04:59.243 watch[3623:13403] PluginResult toSuccessCallbackString: cordova.callbackSuccess('NetworkStatus0',{"status":1,"message":"wifi","keepCallback":false});
+2012-07-23 16:04:59.244 watch[3623:13403] PluginResult:toJSONString - {"status":1,"message":{"name":"iPhone Simulator","uuid":"0C179D37-72FC-46EA-8751-A96E5903FAE2","platform":"iPhone Simulator","version":"5.1","cordova":"2.0.0"},"keepCallback":false}
+2012-07-23 16:04:59.245 watch[3623:13403] PluginResult toSuccessCallbackString: cordova.callbackSuccess('Device1',{"status":1,"message":{"name":"iPhone Simulator","uuid":"0C179D37-72FC-46EA-8751-A96E5903FAE2","platform":"iPhone Simulator","version":"5.1","cordova":"2.0.0"},"keepCallback":false});
+2012-07-23 16:04:59.254 watch[3623:13403] [INFO] report:deviceready
+Terminating in response to SpringBoard's termination.
+2012-07-23 21:09:44.805 watch[11712:13403] Multi-tasking -> Device: YES, App: YES
+2012-07-23 21:15:09.199 watch[11892:13403] Multi-tasking -> Device: YES, App: YES
+Terminating in response to SpringBoard's termination.

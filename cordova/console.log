@@ -1,0 +1,14 @@
+2012-07-23 16:02:01.345 watch[3385:13403] Multi-tasking -> Device: YES, App: YES
+2012-07-23 16:02:01.648 watch[3385:13403] PluginResult:toJSONString - {"status":1,"message":"wifi","keepCallback":false}
+2012-07-23 16:02:01.649 watch[3385:13403] PluginResult toSuccessCallbackString: cordova.callbackSuccess('NetworkStatus0',{"status":1,"message":"wifi","keepCallback":false});
+2012-07-23 16:02:01.652 watch[3385:13403] PluginResult:toJSONString - {"status":1,"message":{"name":"iPhone Simulator","uuid":"0C179D37-72FC-46EA-8751-A96E5903FAE2","platform":"iPhone Simulator","version":"5.1","cordova":"2.0.0"},"keepCallback":false}
+2012-07-23 16:02:01.653 watch[3385:13403] PluginResult toSuccessCallbackString: cordova.callbackSuccess('Device1',{"status":1,"message":{"name":"iPhone Simulator","uuid":"0C179D37-72FC-46EA-8751-A96E5903FAE2","platform":"iPhone Simulator","version":"5.1","cordova":"2.0.0"},"keepCallback":false});
+2012-07-23 16:02:01.665 watch[3385:13403] [INFO] report:deviceready
+Terminating in response to SpringBoard's termination.
+2012-07-23 16:02:18.318 watch[3415:13403] Multi-tasking -> Device: YES, App: YES
+2012-07-23 16:02:18.401 watch[3415:13403] PluginResult:toJSONString - {"status":1,"message":"wifi","keepCallback":false}
+2012-07-23 16:02:18.402 watch[3415:13403] PluginResult toSuccessCallbackString: cordova.callbackSuccess('NetworkStatus0',{"status":1,"message":"wifi","keepCallback":false});
+2012-07-23 16:02:18.403 watch[3415:13403] PluginResult:toJSONString - {"status":1,"message":{"name":"iPhone Simulator","uuid":"0C179D37-72FC-46EA-8751-A96E5903FAE2","platform":"iPhone Simulator","version":"5.1","cordova":"2.0.0"},"keepCallback":false}
+2012-07-23 16:02:18.403 watch[3415:13403] PluginResult toSuccessCallbackString: cordova.callbackSuccess('Device1',{"status":1,"message":{"name":"iPhone Simulator","uuid":"0C179D37-72FC-46EA-8751-A96E5903FAE2","platform":"iPhone Simulator","version":"5.1","cordova":"2.0.0"},"keepCallback":false});
+2012-07-23 16:02:18.413 watch[3415:13403] [INFO] report:deviceready
+Terminating in response to SpringBoard's termination.
